@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+img{
+    height: 500px;
+    position: absolute;
+    animation-name: chutki;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+    
+
+}
+@keyframes chutki {
+    from{
+        left: 0;
+        rotate: 0;
+
+    }
+    to{
+        left: 80%;
+        rotate: 360deg;
+
+    }
+    
+}

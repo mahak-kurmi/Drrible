@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(229, 236, 241);
+    overflow-x: hidden;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+   /* background-color: rgb(227, 161, 76);*/
+   
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+   /* background-color: aquamarine;*/
+    display: flex;
+}
+#nav_part1 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgb(212, 179, 179);*/
+}
+#nav_part1 h1{
+    font-size: 15px;
+    font-weight: 300;
+}
+#nav_part2{
+    height: 100%;
+    width: 15%;
+  /* background-color: blueviolet;*/
+}
+#nav_part2 img{
+    height: 40px;
+    width: auto;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+#nav_part3{
+    height: 100%;
+    width: 45%;
+   /* background-color: cadetblue;*/
+    gap: 5px;
+    display: flex;
+}
+
+#nav_part3 #search{
+ padding-left: 20px;
+ margin: 30px;
+ margin-left: 90px;
+ margin-right: 10px;
+ border-radius: 20px;
+ border: none;
+}
+#log button{
+     margin-top: 34px;
+     border-radius: 17px;
+    padding:9px 20px ;
+    border: none;
+    font-weight: 600;
+}
+ #sign button{
+    border-radius: 17px;
+    padding: 9px 20px;
+    margin-top: 35px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.midtext{
+ /*background-color: brown;*/
+position: relative;
+text-align: center;
+}
+ 
+.midtext h5{
+    width: fit-content;
+    color: black;
+    background-color: rgb(200, 162, 235);
+    border-radius: 17px;
+    padding:8px 25px;
+    margin: 50px;
+    position: relative;
+    left: 45%;
+    transform: translate(-55%);
+
+}
+
+.midtext h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+ .midtext button{
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: black;
+    color: aliceblue;
+    border: black;
+ }
+
+ #slider {
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+   /* background-color: rgb(135, 135, 239);*/
+    white-space: nowrap;
+    overflow-x: hidden;
+
+ }
+
+ .box{
+    
+    margin: 20px;
+    height: 300px;
+    width: 250px;
+   /* background-color: aquamarine;*/
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    
+ }
+ .box img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+
+ }
+
+ .name {
+    height: 30%;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 25px 15px;
+     color: aliceblue;
+
+
+ }
+ .name h5{
+    font-weight: 200;
+    word-spacing: 2px;
+    padding-left: 10px;
+ }
+ .brand button{
+    background-color: transparent;
+    border-radius: 15px;
+    color: aliceblue;
+    border-color: aliceblue;
+    padding: 8px;
+ }
+ #midcontent{
+   /* background-color: aquamarine;*/
+    text-align: center;
+ }
+ #midcontent h1{
+    padding-top: 70px;
+    font-size: 60px;
+    font-weight: 200;
+ }
+
+ .page2{
+    min-height: 100%;
+    width: 100%;
+ }
+ 
+ #cards{
+   /* background-color: bisque;*/
+    margin-top: 50px;
+    
+ }
+ .card{
+   /* background-color: blue;*/
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin:0px 25px;
+    
+    
+ }
+ .card img{
+    height: 80%;
+    width: 100%;
+    border-radius:20px ;
+    object-fit: cover;
+    position: relative;
+ }
+
+  .text{
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    background: linear-gradient(transparent);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    bottom: -70%;
+    padding-bottom: 15px;
+    
+ }
+ .text h4{
+    color: aliceblue;
+    font-size: 20px;
+
+ }
+ .logo i{
+    color: aliceblue;
+    
+ }
+
+ .card:hover .text{
+    bottom: 0%;
+ }
+
+ .content{
+    height: 40px;
+    width: 250px;
+   /* background-color: rgb(176, 176, 239);*/
+    display: flex;
+
+
+    
+ }
+ .leftcontent{
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    margin-top: 8px;
+    margin-left: 6px;
+    
+ }
+ .leftcontent img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+ }
+  
+ .rightcontent {
+    font-weight: 600;
+    padding-left:  95px;
+    padding-top: 10px;
+    word-spacing: 3px;
+    color: grey;
+ }
+
+ #browse{
+
+    width: 100%;
+    height: 200px;
+  /*  background-color: chartreuse;*/
+    text-align: center;
+
+ }
+#morebutton{
+    margin-top:50px ;
+    padding:  20px 15px;
+    border-radius: 40px;
+    font-size: 18px;
+}
+ #page3{
+    
+    width: 100%;
+    height: 600px;
+    background-color: rgb(235, 210, 164);
+    text-align: center;
+    padding: 100px;
+   
+ }
+ #page3 h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-weight: 200;
+ }
+#page3 p{
+    font-weight: 200;
+    word-spacing: 7px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+#button1{
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 40px;
+    color: aliceblue;
+    background-color: black;
+}
+#button2{
+    padding: 20px;
+    border-radius: 40px;
+    color: rgb(7, 1, 1);
+    border: none;
+    background-color: aliceblue;
+}
+#lastslider{
+   width: 100%;
+   height: 300px;
+   /*background-color: aqua;*/
+   display: flex;
+   margin-top: 40px;
+
+   animation-name: movedubba;
+   animation-duration: 8s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   
+
+
+}
+.dubba{
+   width: 280px;
+   height: 220px;
+   border-radius: 10px;
+   overflow: hidden;
+   background-color: black;
+   
+   margin: 20px;
+
+    
+}
+.dubba img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.dubbas h2{
+   font-weight: 200;
+}
+
+@keyframes movedubba {
+
+   from{
+      transform: translateX(0);
+   }
+   to{
+      transform: translateX(-100%);
+   }
+   
+}
+
+#lastnav{
+   width: 100%;
+   height: 250px;
+ /*  background-color: blueviolet;*/
+   display: flex;
+   justify-content: space-around;
+}
+
+#d{
+   margin-top: 100px;
+   height: 40px;
+   width: 10%;
+}
+#d img{
+   height: 100%;
+   width: 100%;
+}
+#lastlines{
+
+   height: 20px;
+   width: 80%;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 100px;
+   font-weight: 200;
+   font-size: small;
+
+}
+#lastlines h2{
+   
+}

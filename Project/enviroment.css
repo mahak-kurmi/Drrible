@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image:url( https://lirp-cdn.multiscreensite.com/1a3cc32c/dms3rep/multi/opt/tree-environment-green-creative-4k-wallpaper-3840x2160-1920w.jpg ) ;
+    background-size: cover;
+    background-position: center;
+
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.498);
+}
+h1{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-weight:500;
+    letter-spacing: 40px;
+    color:rgb(168, 231, 162);
+    font-family:"gilroy" ;
+}
